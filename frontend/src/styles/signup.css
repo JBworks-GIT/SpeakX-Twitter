@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.container {
+  background-color: white;
+  width: 520px;
+  height: 728px;
+  border-radius: 9%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 30px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: 900;
+  flex-direction: row;
+}
+.inputs {
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+.inputs label {
+  font-size: large;
+  margin-bottom: 10px;
+  display: block;
+  color: black;
+}
+.inputs input {
+  width: 360px;
+  height: 48px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: aliceblue;
+  color: black;
+  font-size: large;
+}
+.submissions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.submissions button {
+  width: 360px;
+  height: 48px;
+  border-radius: 25px;
+  background-color: rgba(101, 234, 101, 0.839);
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  margin: 10px 0px 10px 0px;
+}
+#sign {
+  background-color: black;
+}
+.login {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.login a {
+  color: rgb(146, 224, 30);
+  text-decoration: none;
+}
