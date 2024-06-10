@@ -2,7 +2,7 @@ const { app, User } = require('../db/index.js');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
-const JWT_SECRET = 'your_secret_key_here';
+const JWT_SECRET = 'jaidsds';
 const JWT_EXPIRES_IN = '1h';
 
 app.post('/register', async (req, res) => {

@@ -7,7 +7,7 @@ const app = express();
 app.use(cors({origin: true}));
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://root:root@cluster0.ynfgwko.mongodb.net/').then(console.log(
+mongoose.connect('').then(console.log(
   "Connected to MongoDB"
   ));
   
